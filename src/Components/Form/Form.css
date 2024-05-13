@@ -5,6 +5,8 @@
 }
 .firstName,.password,.cPassword,
 .lastName,.lastName,.email{
+    max-width: 350px;
+    flex-wrap: wrap;
     margin:5px;
     padding: 10px;
     display: flex;
@@ -12,12 +14,6 @@
     background-color: #9e9b9b99;
     border: 3px solid #aeaaaa;
     border-radius: 10px;
-}
-
-
-.password{
-    max-width: 300px;
-    flex-wrap: wrap;
 }
 
 .dataShow{
@@ -42,5 +38,11 @@ button{
 .titleData{
     display: flex;
     width: 100%;
+    justify-content: center;
+}
+.error{
+    max-width: 300px;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
